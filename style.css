@@ -1,4 +1,12 @@
 body {
-	background-image: url("paper.png");
+	background-image: url("paper.jpg");
 	background-color: #7f5b2b;
+}
+
+h1{font-family: "Didot";
+
+}
+
+h2{ font-family: "Palatino";
+
 }
