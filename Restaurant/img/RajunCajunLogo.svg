@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="209.60219mm"
+   height="56.766644mm"
+   viewBox="0 0 742.68492 201.14165"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="RajunCajunLogo.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.58236111"
+     inkscape:cx="321.09553"
+     inkscape:cy="-234.83907"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1440"
+     inkscape:window-height="799"
+     inkscape:window-x="121"
+     inkscape:window-y="52"
+     inkscape:window-maximized="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0.71925357,-28.920042)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:169.29776001px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffb645;fill-opacity:1;stroke:#872903;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.9009288;"
+       x="1.7475661"
+       y="160.3495"
+       id="text3336"
+       sodipodi:linespacing="125%"
+       transform="scale(0.90826279,1.1010029)"><tspan
+         sodipodi:role="line"
+         id="tspan3338"
+         x="1.7475661"
+         y="160.3495"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:169.29776001px;line-height:125%;font-family:Safaltaa;-inkscape-font-specification:'Safaltaa, Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffb645;fill-opacity:1;stroke:#872903;stroke-opacity:0.9009288;"
+           id="tspan3342">˙</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:169.29776001px;line-height:125%;font-family:Samarkan;-inkscape-font-specification:'Samarkan, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffb645;fill-opacity:1;stroke:#872903;stroke-opacity:0.9009288;"
+           id="tspan3340">ajun Cajun</tspan></tspan></text>
+  </g>
+</svg>

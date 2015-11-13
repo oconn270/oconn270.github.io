@@ -1,0 +1,42 @@
+body{
+	background-color: #872903;
+}
+
+#header {
+	margin: auto;
+	width: 60%;
+	padding: 10px;
+	position: fixed;
+
+}
+
+.logo{
+	color: #ffb645;
+	height: auto;
+	width: 60%;
+}
+
+.app {
+	height: 10%;
+	width: auto;
+}
+
+.content{
+	background-color: #fff;
+	margin-left:auto;
+	margin-right:auto;
+	vertical-align: middle;
+	width: 50%;
+}
+
+.logo{
+	color: #ffb645;
+	height: auto;
+	width: 60%;
+}
+
+#frontimage {
+	margin-left:auto;
+	margin-right:auto;
+	width: 40%;
+}
