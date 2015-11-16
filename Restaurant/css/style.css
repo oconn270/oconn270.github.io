@@ -1,42 +1,90 @@
 body{
 	background-color: #872903;
+	font-size:1em;
+	padding-top:200px;
 }
 
-#header {
-	margin: auto;
-	width: 60%;
-	padding: 10px;
-	position: fixed;
+ul{
+	background-color:#fff;
+}
+
+a:link{
+	color:#ffb645;
+	text-decoration: none;
+}
+
+a:visited{
+	color:#ffb645;
+	text-decoration: none;
+}
+
+a:hover{
+	color:#faebd7;
+	text-decoration:none;
+}
+
+a:active{
+	color:#fff;
+	text-decoration:none;
+}
+
+p {
+	background-color:#fff;
+	margin-top:0;
+}
+
+
+/* Navigation */
+
+nav {
+	background-color: #872903;
+	top:0;
+	left:0;
+	height:200px;
+	width:100%;
+	padding: 0px;
+	position:fixed;
+	z-index:100;
+
 
 }
 
-.logo{
+#logo{
 	color: #ffb645;
-	height: auto;
-	width: 60%;
+	height:150px;
 }
 
-.app {
-	height: 10%;
-	width: auto;
+#appApple{
+	height: 50px;
+	float:left;
 }
 
-.content{
-	background-color: #fff;
-	margin-left:auto;
-	margin-right:auto;
-	vertical-align: middle;
-	width: 50%;
+#appGoogle {
+	height: 50px;
+	float:right;
+
 }
 
-.logo{
-	color: #ffb645;
-	height: auto;
-	width: 60%;
+#MenuBar {
+	background-color: #872903;
+	margin-top:0;
 }
 
-#frontimage {
-	margin-left:auto;
-	margin-right:auto;
-	width: 40%;
+/* End of Nav */
+
+
+header{
+	padding-top:20px;
+	left:0;
+	font-size:1em;
+	height:100%;
+}
+
+#front {
+	
+	height:50%;
+}
+
+#fronttext {
+	margin-top:0;
 }
