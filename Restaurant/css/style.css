@@ -31,6 +31,7 @@ a:active{
 p {
 	background-color:#fff;
 	margin-top:0;
+	margin-bottom:0;
 }
 
 
@@ -70,6 +71,7 @@ nav {
 	margin-top:0;
 }
 
+
 /* End of Nav */
 
 
@@ -81,10 +83,29 @@ header{
 }
 
 #front {
-	
-	height:50%;
+	height:300px;
 }
 
 #fronttext {
 	margin-top:0;
+}
+
+#Menu {
+	padding-top:200px;
+}
+
+.HeaderTitle:hover, .HeaderTitle:active{
+	color:#000;
+	text-decoration:none;
+}
+
+.MenuMain {
+	position:relative;
+}
+
+.MenuList {
+	position:absolute;
+	top:20px;
+	left:20px;
+	width: 400px;
 }

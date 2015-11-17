@@ -5,6 +5,9 @@
 
 <link rel="stylesheet" type="text/css" href="css/style.css">
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/js" src="js/RajunCajun.js"></script>
+
 </head>
 
 <body>
@@ -26,6 +29,7 @@
 		<p id="MenuBar" align="center">773-955-1145 | 1453 e. 53rd st. Chicago, IL 60653</p>
 
 		<p id="MenuBar" align="center">
+			<a href="https://www.facebook.com/Rajun-Cajun-120896454592840/"><img src="img/fb.png" height="24" width="24"></a> | 
 			<a href="#Menu">Menu</a> |
 			<a href="#Delivery">Delivery</a> |
 			<a href="#Directions">Directions</a> |
@@ -40,38 +44,134 @@
 	Welcome to Rajun Cajun. Come on in and try our unique dishes like the Alu Bengan or the Sambharo curry - you won't find them anywhere else.</p>
 
 </header>
-
 <div id="Menu">
+	<a name="Menu" class="HeaderTitle"><h1>Menu</h1></a>
 	<ul>
-		<li><h2>Tandoori</h2></li>
+		<li class="MenuTandoori"><h2>Tandoori</h2>
+
+			<ul class="SubTandoori">
+				<li>	
+					<h3>Tandoori Chicken</h3>
+						<p>Chicken Marinated in yogurt, garlic and curry spices</p>
+
+						<p>Leg: $2.50; Breast: $2.75; Half: $5.00; Whole: $9.50</p>
+					</li>
+
+				<li>	
+					<h3>Chicken Curry</h3>
+
+						<p>White meat chicken cooked with yogurt, cardamom, and curry sauce</p>
+
+						<p>Medium: $4.50; Large: $8.50</p>
+				</li>
+
+				<li>	
+					<h3>Makhani Murg (Butter Chicken)</h3>
+
+						<p>Boneless pieces of tandoori chicken in cream curry sauce</p>
+
+						<p>Medium: $4.50; Large: $8.50</p>
+				</li>
+
+				<li>	
+					<h3>Lamb Curry</h3>
+						<p>Boneless lamb cubes cooked in curry sauce</p>
+
+						<p>Medium: $6.00; Large: $10.50</p>
+				</li>
+
+			</ul></li>		
+
+
+		<li class="MenuMain"><h2>Chicken</h2><p>Fried chicken. Substitute breast for $0.89</p>
+
+
+			<ul class="MenuList">
+				<li>
+					<h3>2 Pcs Chicken Legs and Thighs with Muffin</h3>
+						<p>$3.25</p>
+				</li>
+
+				<li>
+					<h3>3 Pcs Chicen Legs and Thighs with Muffin</h3>
+						<p>$4.25</p>
+				</li>
+
+				<li>
+					<h3>4 Pcs Chicken Legs and Thighs with Muffin</h3>
+						<p>$5.25</p>
+				</li>
+
+				<li>
+					<h3>2 Pcs Mixed Chicken with Muffin</h3>
+						<p>$3.99</p>
+				</li>
+
+				<li>
+					<h3>3 Pcs Mixed Chicken with Muffin</h3>
+						<p>$4.79</p>
+				</li>
+
+				<li>
+					<h3>4 Pcs Mixed Chicken with Muffin</h3>
+						<p>$5.99
+				</li>
+
+			</ul></li>
+
+		<li><h2>Dinner Specials</h2><p>Fried chicken dinners. Your choice of 2 sides. Substitute for breast $0.89</p></li>
+
 			<ul>
-				<li>	<h3>Tandoori Chicken</h3>
-							<p>Chicken Marinated in yogurt, garlic and curry spices</p>
+				<li>
+					<h3>2 Pcs Chicken Legs and Thighs with Muffin Dinner</h3><p>$4.99</p>
+				</li>
 
-							<p>Leg: $2.50; Breast: $2.75; Half: $5.00; Whole: $9.50</p>
-					</li>
-				<li>	<h3>Chicken Curry</h3>
+				<li>
+					<h3>3 Pcs Chicken Legs and Thighs with Muffin Dinner</h3><p>$5.79</p>
+				</li>
 
-							<p>White meat chicken cooked with yogurt, cardamom, and curry sauce</p>
+				<li>
+					<h3>4 Pcs Chicken Legs and Thighs with Muffin Dinner</h3><p>$6.99</p>
+				</li>
 
-							<p>Medium: $4.50; Large: $8.50</p>
-					</li>
-				<li>	<h3>Makhani Murg (Butter Chicken)</h3>
+				<li>
+					<h3>2 Pcs Mixed Chicken with Muffin Dinner</h3><p>$5.50</p>
+				</li>
 
-							<p>Boneless pieces of tandoori chicken in cream curry sauce</p>
+				<li>
+					<h3>3 Pcs Mixed Chicken with Muffin Dinner</h3><p>$6.25</p>
+				</li>
 
-							<p>Medium: $4.50; Large: $8.50</p>
-					</li>
-				<li>	<h3>Lamb Curry</h3>
+				<li>
+					<h3>4 Pcs Mixed Chicken with Muffin Dinner</h3><p>$7.50</p>
+				</li>
 
-							<p>Boneless lamb cubes cooked in curry sauce</p>
+				<li>
+					<h3>2 Pcs White Meat Chicken with Muffin Dinner</h3><p>$5.50</p>
+				</li>
 
-							<p>Medium: $6.00; Large: $10.50</p>
-					</li>
-			</ul>		
+				<li>
+					<h3>3 Pcs White Meat Chicken with Muffin Dinnner</h3><p>$6.25</p>
+				</li>
 
-		<li><h2>Chicken</h2></li>
-		<li><h2>Dinner Specials</h2></li>
+				<li>
+					<h3>4 Pcs White Meat Chicken with Muffin Dinner</h3><p>$7.50</p>
+				</li>
+
+				<li>
+					<h3>8 Pcs Family Meal Dinner</h3>
+						<p>With 2 large sides and 4 muffins</p>
+						<p>$15.99</p>
+				</li>
+
+				<li>
+					<h3>12 Pcs Family Meal Diner</h3>
+						<p>With 2 large sides and large muffins</p>
+						<p>$19.99</p>
+				</li>
+
+			</ul>
+
 		<li><h2>Curry Dishes</h2></li>
 		<li><h2>Combination Dinner</h2></li>
 		<li><h2>Side Orders</h2></li>
