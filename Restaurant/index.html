@@ -46,6 +46,42 @@ $(document).ready(function(){
 });
 </script>
 
+<script>
+$(document).ready(function(){
+	$(".SubCombo").hide();
+    $(".MenuCombo h2").click(function(){
+        $(".SubCombo").toggle();
+    });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+	$(".SubSide").hide();
+    $(".MenuSide h2").click(function(){
+        $(".SubSide").toggle();
+    });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+	$(".SubBeverages").hide();
+    $(".MenuBeverages h2").click(function(){
+        $(".SubBeverages").toggle();
+    });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+	$(".SubDessert").hide();
+    $(".MenuDessert h2").click(function(){
+        $(".SubDessert").toggle();
+    });
+});
+</script>
+
 <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
@@ -70,7 +106,6 @@ $(document).ready(function(){
 		<p id="MenuBar" align="center">
 			<a href="https://www.facebook.com/Rajun-Cajun-120896454592840/"><img src="img/fb.png" height="24" width="24"></a> | 
 			<a href="#Menu">Menu</a> |
-			<a href="#Delivery">Delivery</a> |
 			<a href="#Directions">Directions</a> |
 			<a href="#Postcards">Postcards</a>
 		</p>
@@ -261,7 +296,7 @@ $(document).ready(function(){
 
 		<li class="MenuCombo"><h2>Combination Dinner</h2>
 
-			<ul class="ComboDinnerMenu">
+			<ul class="SubCombo">
 					<li><h3>Tandoori Chicken Dinner</h3>
 						<p>Two pcs of tandoori chicken, one parothi, one samosa, and one of our spicy vegetables</p>
 						<p>$9.99</p>
@@ -291,8 +326,9 @@ $(document).ready(function(){
 					</li>
 				</ul></li>
 					
-		<li class="MenuSide"><h2>Side Orders</h2></li>
-			<ul class="SideMenu">
+		<li class="MenuSide"><h2>Side Orders</h2>
+
+			<ul class="SubSide">
 				<li><h3>Basmati Rice</h3>
 					<p>Small: $1.29</p>
 					<p>Medium:$2.29</p>
@@ -339,8 +375,9 @@ $(document).ready(function(){
 					<p>$1.59</p>
 				</li>
 			<ul></li>
+
 		<li class="MenuBeverages"><h2>Beverages</h2>
-			<ul class="BeveragesMenu">
+			<ul class="SubBeverages">
 				<li><h3>Soda</h3>
 					<p>Pepsi, Diet Pepsi, Coke, Diet Coke, Sprite, 7-Up, Fanta Orange, Mountain Dew, Dr. Pepper, Diet Dr. Pepper, Ginger Ale</p>
 					<p>$0.79</p>
@@ -383,8 +420,8 @@ $(document).ready(function(){
 
 			</ul></li>
 
-		<li class="DesertMenu"><h2>Dessert</h2>
-			<ul class="MenuDessert">
+		<li class="MenuDessert"><h2>Dessert</h2>
+			<ul class="SubDessert">
 				<li><h3>Ras Mallai</h3>
 					<p>$2.99</p>
 				</li>
@@ -406,9 +443,24 @@ $(document).ready(function(){
 </div>
 <!-- END OF MENU -->
 
-<!-- DELIVERY BEGIN -->
+<!-- DIRECTIONS BEGINS -->
 
-<div>
+<div id="Directions"><a name="Directions" class="HeaderTitle"><h1>Directions</h1></a>
+
+	<div id="Map">
+	</div>
+
+	<div id="Instructions">
+		<p>We are located at 1459 e. 53rd st. in Chicago, near the corner of 53rd and Harper in the Hyde Park neighborhood.</p>
+
+		<h5>Public Transit directions</h5>
+			<p>Metra to 51st/53rd st. Exit on 53rd, walk west one block.</p>
+			<p>CTA: Red or Green Line to Garfield, transfer to the #55 Bus (eastbound), exit at either Blackstone or S. Lake Park. Walk north to 53rd st. OR: Take the #15 bus from the Red Line's 47th st. stop and exit on S. Lake Park Ave. Walk west one block.
+			</p>
+			<p><b>We are only able to deliver to locations 1.5 miles from our location.</b></p>
+		</div>
+
+</div>
 
 </body>
 </html>

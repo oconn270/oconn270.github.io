@@ -6,6 +6,7 @@ body{
 
 ul{
 	background-color:#fff;
+	list-style-type:none;
 }
 
 a:link{
@@ -100,14 +101,14 @@ header{
 	text-decoration:none;
 }
 
-.MenuTandoori, .MenuChicken, .MenuDinner, .MenuCurry {
+.MenuTandoori, .MenuChicken, .MenuDinner, .MenuCurry, .MenuCombo, .MenuSide, .MenuBeverages, .MenuDessert {
 	position:relative;
-	z-index:1000;
 }
 
-.SubTandoori, .SubChicken, .SubDinner, .SubCurry {
+.SubTandoori, .SubChicken, .SubDinner, .SubCurry, .SubCombo, .SubSide, .SubBeverages, .SubDessert {
 	position:absolute;
 	top:20px;
 	left:20px;
 	width: 400px;
+	z-index:1000;
 }
