@@ -92,6 +92,7 @@ header{
 
 #Menu {
 	padding-top:200px;
+	z-index:100;
 }
 
 .HeaderTitle:hover, .HeaderTitle:active{
@@ -99,11 +100,12 @@ header{
 	text-decoration:none;
 }
 
-.MenuMain {
+.MenuTandoori, .MenuChicken, .MenuDinner, .MenuCurry {
 	position:relative;
+	z-index:1000;
 }
 
-.MenuList {
+.SubTandoori, .SubChicken, .SubDinner, .SubCurry {
 	position:absolute;
 	top:20px;
 	left:20px;

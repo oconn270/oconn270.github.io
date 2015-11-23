@@ -1,13 +1,52 @@
+<!-- - Layering the submenus over the main menu.
+	- Multiple columns in css
+-->
+
 <!DOCTYPE=html>
 <html>
 <title>Rajun Cajun Restaurant | Indian Delivery in Chicago | Order Online</title>
 <head>
 
-<link rel="stylesheet" type="text/css" href="css/style.css">
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+	$(".SubTandoori").hide();
+    $(".MenuTandoori h2").click(function(){
+        $(".SubTandoori").toggle();
+    });
+});
+</script>
 <script type="text/js" src="js/RajunCajun.js"></script>
 
+<script>
+$(document).ready(function(){
+	$(".SubChicken").hide();
+    $(".MenuChicken h2").click(function(){
+        $(".SubChicken").toggle();
+    });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+	$(".SubDinner").hide();
+    $(".MenuDinner h2").click(function(){
+        $(".SubDinner").toggle();
+    });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+	$(".SubCurry").hide();
+    $(".MenuCurry h2").click(function(){
+        $(".SubCurry").toggle();
+    });
+});
+</script>
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
@@ -44,6 +83,9 @@
 	Welcome to Rajun Cajun. Come on in and try our unique dishes like the Alu Bengan or the Sambharo curry - you won't find them anywhere else.</p>
 
 </header>
+
+<!-- MENU BEGIN -->
+
 <div id="Menu">
 	<a name="Menu" class="HeaderTitle"><h1>Menu</h1></a>
 	<ul>
@@ -83,10 +125,10 @@
 			</ul></li>		
 
 
-		<li class="MenuMain"><h2>Chicken</h2><p>Fried chicken. Substitute breast for $0.89</p>
+		<li class="MenuChicken"><h2>Chicken</h2><p>Fried chicken. Substitute breast for $0.89</p>
 
 
-			<ul class="MenuList">
+			<ul class="SubChicken">
 				<li>
 					<h3>2 Pcs Chicken Legs and Thighs with Muffin</h3>
 						<p>$3.25</p>
@@ -114,14 +156,14 @@
 
 				<li>
 					<h3>4 Pcs Mixed Chicken with Muffin</h3>
-						<p>$5.99
+						<p>$5.99</p>
 				</li>
 
 			</ul></li>
 
-		<li><h2>Dinner Specials</h2><p>Fried chicken dinners. Your choice of 2 sides. Substitute for breast $0.89</p></li>
+		<li class="MenuDinner"><h2>Dinner Specials</h2><p>Fried chicken dinners. Your choice of 2 sides. Substitute for breast $0.89</p>
 
-			<ul>
+			<ul class="SubDinner">
 				<li>
 					<h3>2 Pcs Chicken Legs and Thighs with Muffin Dinner</h3><p>$4.99</p>
 				</li>
@@ -170,14 +212,203 @@
 						<p>$19.99</p>
 				</li>
 
-			</ul>
+			</ul></li>
 
-		<li><h2>Curry Dishes</h2></li>
-		<li><h2>Combination Dinner</h2></li>
-		<li><h2>Side Orders</h2></li>
-		<li><h2>Beverages</h2></li>
-		<li><h2>Dessert</h2></li>
+		<li class="MenuCurry"><h2>Curry Dishes</h2><p>Spicy vegetable curries</p>
+
+			<ul class="SubCurry">
+				<li><h3>Chana Masala Curry</h3>
+					<p>Chickpeas and spinach, cooked in a curry sauce with garlic, ginger and tomatos</p>
+					<p>Small: $1.99 / Medium: $2.99 / Large: $4.99</p>
+				</li>
+
+				<li><h3>Sambharo Curry</h3>
+					<p>Cabbage and carrots, stir-fried with curry, tumeric and lemon juice</p>
+					<p>Small: $1.99 / Medium: $2.99 / Large: $4.99</p>
+				</li>
+
+				<li><h3>Gobi Mutter Curry</h3>
+					<p>Cauliflower and peas in tomato curry with garlic and ginger</p>
+					<p>Small: $1.99 / Medium: $2.99 / Large: $4.99</p>
+				</li>
+
+				<li><h3>Alu Curry</h3>
+					<p>Potatoes lightly stir-fried with tumeric, sesame seeds and fresh green chilies</p>
+					<p>Small: $1.99 / Medium: $2.99 / Large: $4.99</p>
+				</li>
+
+				<li><h3>Dal Curry</h3>
+					<p>Lentals cooked in tomato curry with garlic and ginger</p>
+					<p>Small: $1.99 / Medium: $2.99 / Large: $4.99</p>
+				</li>
+
+				<li><h3>Rajma Curry</h3>
+					<p>Kidney beans cooked with sliced onions, in a tomato curry sauce with health doses of garlic</p>
+					<p>Small: $1.99 / Medium: $2.99 / Large: $4.99</p>
+				</li>
+
+				<li><h3>Alu Bengan Curry</h3>
+					<p>Potatoes and eggplant sauteed in a curry sauce with tomatoes, garlic, lemon juice and sugar</p>
+					<p>Small: $1.99 /  Medium: $2.99 / Large: $4.99</p>
+				</li>
+
+				<li><h3>Saag Paneer (Spinach and Cheese Curry)</h3>
+					<p>Spinach and homemade curd cheese cooked in cream curry</p>
+					<p>Small: $1.99 / Medium: $2.99 / Large: $4.99</p>
+				</li>
+
+			</ul></li>
+
+		<li class="MenuCombo"><h2>Combination Dinner</h2>
+
+			<ul class="ComboDinnerMenu">
+					<li><h3>Tandoori Chicken Dinner</h3>
+						<p>Two pcs of tandoori chicken, one parothi, one samosa, and one of our spicy vegetables</p>
+						<p>$9.99</p>
+					</li>
+
+					<li><h3>Butter Chicken Dinner</h3>
+						<p>Medium butter chicken, one of our spicy vegetables, one parotha, one samosa and basmati rice</p>
+						<p>$9.99</p>
+					</li>
+
+					<li><h3>Vegetarian Dinner</h3>
+						<p>Two of our spicy vegetables, one parotha, one samosa, and basmati rice</p>
+						<p>$8.99</p>
+					</li>
+
+					<li><h3>Lamb Curry Dinner</h3>
+						<p>Medium lamb curry, one of our vegetetables, one parotha, one samosa, and basmati rice</p>
+						<p>$12.99</p>
+					</li>
+					<li><h3>Curry Chicken Dinner</h3>
+						<p>Medium curry chicken, one of our vegetables, one parotha, one samosa, and basmati rice</p>
+						<p>$9.99</p>
+					</li>
+					<li><h3>Family Tandoori Chicken Meal</h3>
+						<p>8 pcs chicken, 2 large vegetables, 1 large rice, 4 samosas, 4 parathas</p>
+						<p>$35.99</p>
+					</li>
+				</ul></li>
+					
+		<li class="MenuSide"><h2>Side Orders</h2></li>
+			<ul class="SideMenu">
+				<li><h3>Basmati Rice</h3>
+					<p>Small: $1.29</p>
+					<p>Medium:$2.29</p>
+					<p>Large:$3.50</p>
+				</li>
+				<li><h3>Parotha</h3>
+					<p>$0.99</p>
+				<li><h3>Raita</h3>
+					<p>Yogurt cucumber sauce</p>
+					<p>$1.29</p>
+				</li>
+				<li><h3>Pickles</h3>
+					<p>$0.59</p>
+				</li>
+				<li><h3>Rice</h3>
+					<p>Small:$1.29</p>
+					<p>Medium:$2.29</p>
+					<p>Large:$3.60</p>
+				</li>
+				<li><h3>Greens</h3>
+					<p>Small:$1.29</p>
+					<p>Medium:$2.29</p>
+					<p>Large:$3.60</p>
+				</li>
+				<li><h3>Sweet Potatoes</h3>
+					<p>Small:$1.29</p>
+					<p>Medium:$2.29</p>
+					<p>Large:$3.60</p>					
+				</li>
+				<li><h3>Macaroni and Cheese</h3>
+					<p>Small:$1.29</p>
+					<p>Medium:$2.29</p>
+					<p>Large:$3.60</p>
+				</li>
+				<li><h3>Corn Muffin</h3>
+					<p>1 pcs:$0.60</p>
+					<p>6 pcs:$3.25</p>
+					<p>12 pcs: $5.99</p>
+				</li>
+				<li><h3>Vegetable Samosa</h3>
+					<p>$0.99</p>
+				</li>
+				<li><h3>Chicken Samosa</h3>
+					<p>$1.59</p>
+				</li>
+			<ul></li>
+		<li class="MenuBeverages"><h2>Beverages</h2>
+			<ul class="BeveragesMenu">
+				<li><h3>Soda</h3>
+					<p>Pepsi, Diet Pepsi, Coke, Diet Coke, Sprite, 7-Up, Fanta Orange, Mountain Dew, Dr. Pepper, Diet Dr. Pepper, Ginger Ale</p>
+					<p>$0.79</p>
+				</li>
+				<li><h3>Mistic Juice</h3>
+					<p>Orange Mango, Orange Carrot, Strawberry Banana, Grape Strawberry, Tropical Fruit Punch</p>
+					<p>$1.49</p>
+				</li>
+				<li><h3>Sobe</h3>
+					<p>Green Tea, Energy</p>
+					<p>$1.89</p>
+				</li>
+				<li><h3>Arizona Tea</h3>
+					<p>$1.89</p>
+				</li>
+				<li><h3>Ginger Root</h3>
+					<p>$3.75</p>
+				</li>
+				<li><h3>Hot Chai Tea</h3>
+					<p>$1.50</p>
+				</li>
+				<li><h3>Cold Chai Tea</h3>
+					<p>$1.50</p>
+				</li>
+				<li><h3>Mango Lassi</h3>
+					<p>$1.99</p>
+				</li>
+				<li><h3>Mango Juice</h3>
+					<p>$1.99</p>
+				</li>
+				<li><h3>Guava Juice</h3>
+					<p>$1.99</p>
+				</li>
+				<li><h3>Litchi Juice</h3>
+					<p>$1.99</p>
+				</li>
+				<li><h3>Passion Juice</h3>
+					<p>$1.99</p>
+				</li>
+
+			</ul></li>
+
+		<li class="DesertMenu"><h2>Dessert</h2>
+			<ul class="MenuDessert">
+				<li><h3>Ras Mallai</h3>
+					<p>$2.99</p>
+				</li>
+				<li><h3>Rice Pudding</h3>
+					<p>$2.99</p>
+				</li>
+				<li><h3>Gulab Jamun</h3>
+					<p>$2.99</p>
+				</li>
+				<li><h3>Peach Cobbler-Medium</h3>
+					<p>$2.99</p>
+				</li>
+				<li><h3>Peach Cobbler-Large</h3>
+					<p>$2.99</p>
+				</li>
+
+		</ul></li>
 	</ul>
+</div>
+<!-- END OF MENU -->
+
+<!-- DELIVERY BEGIN -->
+
+<div>
 
 </body>
 </html>
