@@ -1,6 +1,7 @@
 body{
 	background-color: #872903;
 	font-size:1em;
+	font-family: "Lucida Sans Unicode", sans-serif;
 	padding-top:200px;
 }
 
@@ -111,4 +112,10 @@ header{
 	left:20px;
 	width: 400px;
 	z-index:1000;
+}
+
+#Directions {
+	padding-top:200px;
+	left:0;
+	background-color:#fff;
 }

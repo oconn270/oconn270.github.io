@@ -1,0 +1,40 @@
+body {
+	font-family: "Indie Flower", cursive;
+	background-color:#faebd7;
+}
+
+ul {
+	font-family: "Indie Flower", cursive;
+}
+p {
+	font-family: "Indie Flower", cursive;
+	text-align:center;
+}
+
+h1 {
+	text-align:center;
+	font-size:40;
+	font-family: "Indie Flower", cursive;
+}
+
+#TopNav {
+	position:fixed;
+	padding-bottom:60px;
+	text-align:center;
+}
+
+#BottomNav {
+	position:fixed;
+	padding-top:40px;
+}
+
+#directions {
+	list-style-type : none;
+	display: inline;
+}
+
+#hours {
+	list-style-type: none;
+	display: inline;
+	padding-top:120px;
+}
