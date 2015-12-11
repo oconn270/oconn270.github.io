@@ -1,5 +1,3 @@
-<!-- How do you create external divs at the right places? -->
-
 <!DOCTYPE: HTML>
 
 <HTML>
@@ -17,19 +15,28 @@
 <h1>Robert O'Connor</h1>
 	<h2>Enthusiast | Communicator | Maker</h2>
 </nav>
-<table>
-	<tr>
-		<td>
-<div id="intro">
-	<p>This might be a long and zig-zag a bit, so bear with me. To sum up, I am many different things, and my work reflects attempting to stay true to what I am. It's not that I CAN write, or play music, or take photos, or anything, those are all just things I do. They're as natural to me as breathing and I don't think of them in the same way as "skill acquisition" or "intense training."</p>
+
+<a name="top"><div id="intro"></a>
+		<div class="left">
+			<p>This might be a long and zig-zag a bit, so bear with me. To sum up, I am many different things, and my work reflects attempting to stay true to what I am. It's not that I CAN write, or play music, or take photos, or anything, those are all just things I do. They're as natural to me as breathing and I don't think of them in the same way as "skill acquisition" or "intense training."</p>
+			</div>
+			<div id="profile">
+				<img src="personal/img/profile.png" height="300" align="left"></td></tr></div>
+		<div class="directions"><a href="#music">&#9660</a></div>
+		
+	</div>
+
+<div id="music">
+	<a name="music">
+	<div class="directions"><a href="#top">&#9650</a></div>
+	<div class="right"></a>
+	<p>I left high school thinking I was going to be a musician, playing in school jazz ensembles all through college and doing some freelance stuff on the side. Looking back I'm glad none of that was recorded and I realize now I'm a better studio person than a live musician. Having said that, I do miss live performances - the joy of applause, the comraderie you feel with your bandmates and the immediacy of a job well done. One of these days I'll go back to that, but for now, I'll stick to what I know best.</p>
+	</div>
+
 </div>
-	</td>
-	<td>
-<div>
-	<img src="personal/img/profile.png" height="200" align="left">
-</div>
-</td></tr>
-<tr><td>
+
+<div class="image" id="writing">
+
 <div class="right">
 
 	<p>I left high school thinking I was going to be a musician, playing in school jazz ensembles all through college and doing some freelance stuff on the side. Looking back I'm glad none of that was recorded and I realize now I'm a better studio person than a live musician. Having said that, I do miss live performances - the joy of applause, the comraderie you feel with your bandmates and the immediacy of a job well done. One of these days I'll go back to that, but for now, I'll stick to what I know best.</p>
@@ -62,6 +69,7 @@
 	<div id="yourestillhere"></div>
 
 
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="personal/js/javascript.js"></script>
 </body>
 </HTML>

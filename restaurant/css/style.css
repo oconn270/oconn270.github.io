@@ -30,10 +30,19 @@ a:active{
 	text-decoration:none;
 }
 
+h1 {
+	font-size:3em;
+}
+
+h2 {
+	font-size:2em;
+}
+
 p {
 	background-color:#fff;
 	margin-top:0;
 	margin-bottom:0;
+	font-size:1em;
 }
 
 
@@ -73,7 +82,6 @@ nav {
 	margin-top:0;
 }
 
-
 /* End of Nav */
 
 
@@ -84,17 +92,25 @@ header{
 	height:100%;
 }
 
-#front {
-	height:300px;
-}
-
 #fronttext {
 	margin-top:0;
+	padding-bottom:250px;
+	vertical-align:center;
 }
 
 #Menu {
 	padding-top:200px;
 	z-index:100;
+	padding-bottom:200px;
+	background-image:url(../img/menu.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+#MenuTitle {
+	background-color:rgba(255,255,255,0.7);
+	float:center;
+	text-align:center;
 }
 
 .HeaderTitle:hover, .HeaderTitle:active{
@@ -102,20 +118,51 @@ header{
 	text-decoration:none;
 }
 
-.MenuTandoori, .MenuChicken, .MenuDinner, .MenuCurry, .MenuCombo, .MenuSide, .MenuBeverages, .MenuDessert {
+.MenuField {
 	position:relative;
+	background-color:rgba(255,255,255,0.7);
+	padding-bottom:100px;
+
+}
+.MenuTandoori, .MenuChicken, .MenuDinner, .MenuCurry, .MenuCombo, .MenuSide, .MenuBeverages, .MenuDessert {
+	display: inline-block;
+	margin-left: -4px;
+	width: 50%;
 }
 
 .SubTandoori, .SubChicken, .SubDinner, .SubCurry, .SubCombo, .SubSide, .SubBeverages, .SubDessert {
 	position:absolute;
+	display:inline-block;
 	top:20px;
 	left:20px;
-	width: 400px;
+	width: 50%;
+	height: 100%;
+	overflow: auto;
 	z-index:1000;
+	overflow:hidden;
+
 }
 
 #Directions {
 	padding-top:200px;
 	left:0;
 	background-color:#fff;
+	display:inline-block;
+	padding-bottom:200px;
+}
+
+
+.close {
+	float:right;
+	font-size:5em;
+	background-color:#787878;
+	font color:#fff;
+
+}
+
+#Postcards {
+	padding-top:200px;
+	padding-bottom:200px;
+	left:0;
+	background-image:url(../img/postcards.jpg);
 }

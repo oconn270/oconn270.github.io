@@ -1,87 +1,10 @@
-<!-- - Layering the submenus over the main menu.
-	- Multiple columns in css
--->
-
 <!DOCTYPE=html>
 <html>
 <title>Rajun Cajun Restaurant | Indian Delivery in Chicago | Order Online</title>
 <head>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
-<script>
-$(document).ready(function(){
-	$(".SubTandoori").hide();
-    $(".MenuTandoori h2").click(function(){
-        $(".SubTandoori").toggle();
-    });
-});
-</script>
-<script type="text/js" src="js/RajunCajun.js"></script>
-
-<script>
-$(document).ready(function(){
-	$(".SubChicken").hide();
-    $(".MenuChicken h2").click(function(){
-        $(".SubChicken").toggle();
-    });
-});
-</script>
-
-<script>
-$(document).ready(function(){
-	$(".SubDinner").hide();
-    $(".MenuDinner h2").click(function(){
-        $(".SubDinner").toggle();
-    });
-});
-</script>
-
-<script>
-$(document).ready(function(){
-	$(".SubCurry").hide();
-    $(".MenuCurry h2").click(function(){
-        $(".SubCurry").toggle();
-    });
-});
-</script>
-
-<script>
-$(document).ready(function(){
-	$(".SubCombo").hide();
-    $(".MenuCombo h2").click(function(){
-        $(".SubCombo").toggle();
-    });
-});
-</script>
-
-<script>
-$(document).ready(function(){
-	$(".SubSide").hide();
-    $(".MenuSide h2").click(function(){
-        $(".SubSide").toggle();
-    });
-});
-</script>
-
-<script>
-$(document).ready(function(){
-	$(".SubBeverages").hide();
-    $(".MenuBeverages h2").click(function(){
-        $(".SubBeverages").toggle();
-    });
-});
-</script>
-
-<script>
-$(document).ready(function(){
-	$(".SubDessert").hide();
-    $(".MenuDessert h2").click(function(){
-        $(".SubDessert").toggle();
-    });
-});
-</script>
-
+<meta charset="UTF-8">
+<link rel="icon" type="image/ico" href="img/icon.ico">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
@@ -89,10 +12,10 @@ $(document).ready(function(){
 
 	<nav>
 		<div align="left">
-		<a href="https://itunes.apple.com/us/app/eat24-order-food-delivery/id517729226?ls=1&mt=8"><img align="right" id="appApple" src="img/iphone.png" alt="App Store"></a></div>
+		<a href="https://itunes.apple.com/us/app/eat24-order-food-delivery/id517729226?ls=1&mt=8" target="_blank"><img align="right" id="appApple" src="img/iphone.png" alt="App Store"></a></div>
 
 		<div align="right">
-		<a href="https://play.google.com/store/apps/details?id=com.eat24.app">
+		<a href="https://play.google.com/store/apps/details?id=com.eat24.app" target="_blank">
 			<img align="left" id="appGoogle" src="img/droid.png" alt="Google Play"></a></div>
 
 
@@ -104,7 +27,7 @@ $(document).ready(function(){
 		<p id="MenuBar" align="center">773-955-1145 | 1453 e. 53rd st. Chicago, IL 60653</p>
 
 		<p id="MenuBar" align="center">
-			<a href="https://www.facebook.com/Rajun-Cajun-120896454592840/"><img src="img/fb.png" height="24" width="24"></a> | 
+			<a href="https://www.facebook.com/Rajun-Cajun-120896454592840/" target="_blank"><img src="img/fb.png" height="24" width="24"></a> | 
 			<a href="#Menu">Menu</a> |
 			<a href="#Directions">Directions</a> |
 			<a href="#Postcards">Postcards</a>
@@ -114,19 +37,20 @@ $(document).ready(function(){
 
 
 	<header>
-		<p align="center"><img align="center" id="front" src="img/curry.jpg"></p><p align="center" id="fronttext">
-	Welcome to Rajun Cajun. Come on in and try our unique dishes like the Alu Bengan or the Sambharo curry - you won't find them anywhere else.</p>
+		<img align="left" id="front" src="img/front.jpg" height="300"><div id="fronttextbox"><p align="center" id="fronttext">
+	Welcome to Rajun Cajun. Come on in and try our unique dishes like the Alu Bengan or the Sambharo curry - you won't find them anywhere else.</div>
 
 </header>
 
 <!-- MENU BEGIN -->
 
 <div id="Menu">
-	<a name="Menu" class="HeaderTitle"><h1>Menu</h1></a>
-	<ul>
-		<li class="MenuTandoori"><h2>Tandoori</h2>
+	<a name="Menu" class="HeaderTitle"><h1 id="MenuTitle">Menu</h1></a>
+	<ul class="MenuField">
+		<li class="MenuTandoori TopMenu"><h2>Tandoori</h2>
 
-			<ul class="SubTandoori">
+			<ul class="SubTandoori SubMenu">
+				<li class="close">X</li>
 				<li>	
 					<h3>Tandoori Chicken</h3>
 						<p>Chicken Marinated in yogurt, garlic and curry spices</p>
@@ -160,10 +84,11 @@ $(document).ready(function(){
 			</ul></li>		
 
 
-		<li class="MenuChicken"><h2>Chicken</h2><p>Fried chicken. Substitute breast for $0.89</p>
+		<li class="MenuChicken TopMenu"><h2>Chicken</h2><p>Fried chicken. Substitute breast for $0.89</p>
 
 
-			<ul class="SubChicken">
+			<ul class="SubChicken SubMenu">
+				<li class="close">X</li>
 				<li>
 					<h3>2 Pcs Chicken Legs and Thighs with Muffin</h3>
 						<p>$3.25</p>
@@ -196,9 +121,10 @@ $(document).ready(function(){
 
 			</ul></li>
 
-		<li class="MenuDinner"><h2>Dinner Specials</h2><p>Fried chicken dinners. Your choice of 2 sides. Substitute for breast $0.89</p>
+		<li class="MenuDinner TopMenu"><h2>Dinner Specials</h2><p>Fried chicken dinners. Your choice of 2 sides. Substitute for breast $0.89</p>
 
-			<ul class="SubDinner">
+			<ul class="SubDinner SubMenu">
+				<li class="close">X</li>
 				<li>
 					<h3>2 Pcs Chicken Legs and Thighs with Muffin Dinner</h3><p>$4.99</p>
 				</li>
@@ -249,9 +175,10 @@ $(document).ready(function(){
 
 			</ul></li>
 
-		<li class="MenuCurry"><h2>Curry Dishes</h2><p>Spicy vegetable curries</p>
+		<li class="MenuCurry TopMenu"><h2>Curry Dishes</h2><p>Spicy vegetable curries</p>
 
-			<ul class="SubCurry">
+			<ul class="SubCurry SubMenu">
+				<li class="close">X</li>
 				<li><h3>Chana Masala Curry</h3>
 					<p>Chickpeas and spinach, cooked in a curry sauce with garlic, ginger and tomatos</p>
 					<p>Small: $1.99 / Medium: $2.99 / Large: $4.99</p>
@@ -294,9 +221,10 @@ $(document).ready(function(){
 
 			</ul></li>
 
-		<li class="MenuCombo"><h2>Combination Dinner</h2>
+		<li class="MenuCombo TopMenu"><h2>Combination Dinner</h2>
 
-			<ul class="SubCombo">
+			<ul class="SubCombo SubMenu">
+				<li class="close">X</li>
 					<li><h3>Tandoori Chicken Dinner</h3>
 						<p>Two pcs of tandoori chicken, one parothi, one samosa, and one of our spicy vegetables</p>
 						<p>$9.99</p>
@@ -326,9 +254,10 @@ $(document).ready(function(){
 					</li>
 				</ul></li>
 					
-		<li class="MenuSide"><h2>Side Orders</h2>
+		<li class="MenuSide TopMenu"><h2>Side Orders</h2>
 
-			<ul class="SubSide">
+			<ul class="SubSide SubMenu">
+				<li class="close">X</li>
 				<li><h3>Basmati Rice</h3>
 					<p>Small: $1.29</p>
 					<p>Medium:$2.29</p>
@@ -374,10 +303,11 @@ $(document).ready(function(){
 				<li><h3>Chicken Samosa</h3>
 					<p>$1.59</p>
 				</li>
-			<ul></li>
+			</ul></li>
 
-		<li class="MenuBeverages"><h2>Beverages</h2>
-			<ul class="SubBeverages">
+		<li class="MenuBeverages TopMenu"><h2>Beverages</h2>
+			<ul class="SubBeverages SubMenu">
+				<li class="close">X</li>
 				<li><h3>Soda</h3>
 					<p>Pepsi, Diet Pepsi, Coke, Diet Coke, Sprite, 7-Up, Fanta Orange, Mountain Dew, Dr. Pepper, Diet Dr. Pepper, Ginger Ale</p>
 					<p>$0.79</p>
@@ -420,8 +350,9 @@ $(document).ready(function(){
 
 			</ul></li>
 
-		<li class="MenuDessert"><h2>Dessert</h2>
-			<ul class="SubDessert">
+		<li class="MenuDessert TopMenu"><h2>Dessert</h2>
+			<ul class="SubDessert SubMenu">
+				<li class="close">X</li>
 				<li><h3>Ras Mallai</h3>
 					<p>$2.99</p>
 				</li>
@@ -446,14 +377,15 @@ $(document).ready(function(){
 <!-- DIRECTIONS BEGINS -->
 
 <div id="Directions"><a name="Directions" class="HeaderTitle"><h1>Directions</h1></a>
+<table><tr>
+	<td>
 
-	<div id="Map">
 
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2974.342624980075!2d-87.59167538470925!3d41.79937897922851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e296dfa8c69fb%3A0x29547a275db232b2!2sRajun+Cajun!5e0!3m2!1sen!2sus!4v1448889953394" width="600" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-	</div>
+	</td>
 
-	<div id="Instructions">
+	<td><div id="Instructions">
 		<p>We are located at 1459 e. 53rd st. in Chicago, near the corner of 53rd and Harper in the Hyde Park neighborhood.</p>
 
 		<h5>Public Transit directions</h5>
@@ -461,23 +393,21 @@ $(document).ready(function(){
 			<p>CTA: Red or Green Line to Garfield, transfer to the #55 Bus (eastbound), exit at either Blackstone or S. Lake Park. Walk north to 53rd st. OR: Take the #15 bus from the Red Line's 47th st. stop and exit on S. Lake Park Ave. Walk west one block.
 			</p>
 			<p><b>We are only able to deliver to locations 1.5 miles from our location.</b></p>
-		</div>
+		</div></td></tr></table>
 
-	<div id="delivery">
-		<img src="http://maps.google.com/maps/api/staticmap?size=600x500&path=fillcolor:0xFF0000|weight:1|color:0xFF0000|enc:kdg~FdiruOHuK^sKt@oKfAiK|AaKpBwJbCmJvC}IfDqIxD_IjEmHxEyGfFcGrFmF~FwEjG}DrGeD|GiC`HoBfHuAjHw@lH[lH?lHZjHv@fHtAbHnBzGhCrGdDjG|D~FvEtFlFfFbGxExGhElHxD~HhDpItC|IdClJnBvJ|A`KhAhKr@nK^rKHtKItK_@rKs@nKiAhK}A`KoBvJeClJuC~IiDnIyD~HiElHyExGgFbGuFnF_GtEkG~DsGbD{GjCcHnBgHrAkHv@mHZmH?mH[kHw@gHsAaHoB}GkCsGcDkG_E_GuEsFoFgFcGyEyGkEmHyD_IgDoIwC_JcCmJqBwJ}AaKgAiKu@oK_@sKIuK&sensor=true" border="0"/>
 
-</div>
+
+</div></div>
 
 <!-- DIRECTIONS END -->
 
 <!-- POSTCARDS BEGIN -->
-
-<div id="Postcards"><a name="Postcards" class="HeaderTitle">
+<a name="postcards" class="HeaderTitle"><div id="Postcards"></a>
 	<h1>Postcards</h1></a>
-
+<p>Our customers have been all over the world - look on our wall and see. One of these days you will too, and we look forward to hearing about it.</p>
 
 </div>
-
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/RajunCajun.js"></script>
 </body>
 </html>

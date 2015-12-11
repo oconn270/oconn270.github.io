@@ -16,25 +16,31 @@ h1 {
 	font-size:40;
 	font-family: "Indie Flower", cursive;
 }
-
+.blueflag {
+	background-color:#AFC9CA;
+	width:100%;
+	height:20px;
+}
 #TopNav {
 	position:fixed;
-	padding-bottom:60px;
+	padding-bottom:120px;
 	text-align:center;
 }
 
 #BottomNav {
 	position:fixed;
 	padding-top:40px;
+	display:inline;
 }
 
 #directions {
 	list-style-type : none;
-	display: inline;
+	display:inline;
 }
 
 #hours {
 	list-style-type: none;
 	display: inline;
-	padding-top:120px;
+	padding-top:160px;
+	width: 100%;
 }

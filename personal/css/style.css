@@ -1,10 +1,10 @@
 a:link {
-	color:#000;
+	color:#a00000;
 	text-decoration:none;
 }
 
 a:visited {
-	color:#ff0000;
+	color:#a00000;
 	text-decoration:none;
 }
 
@@ -19,17 +19,17 @@ a:active{
 }
 
 body {
-	background-image: url(../../personal/img/background.gif);
-	background-repeat: no-repeat;
-	background-attachment: fixed;
 	margin: 0;
 	padding-top:150px;
+	width:1024px;
+	overflow:hidden;
+
 }
 
 h1 {
 	font-family:"Brush Script MT", cursive;
 	font-size:2em;
-	text-align:left;
+	text-align:center;
 }
 
 h2 {
@@ -37,17 +37,24 @@ h2 {
 	text-align:center;
 }
 
-table {
-	width: 1024px;
-	padding:0;
-}
 
-td {
-	width:50%;
-}
+.title {
+	top:0;
+	left:0;
+	padding-top:0;
+	background-color: rgba(255,255,255,0.4);
+	width:1024px;
+	height:150px;
+	text-align:center;
+	position:fixed;
+	z-index: 1000;
+	}
 
-tr {
-	padding-bottom:200px;
+#intro {
+	width:1024px;
+	height:768px;
+	padding-top:150px;
+	background-image: url(../../personal/img/background.gif);
 }
 
 .left {
@@ -57,17 +64,17 @@ tr {
 	width: 45%;
 	padding-left:20px;
 	padding-right:20px;
+	vertical-align:middle;
 	margin-left:5px;
 	margin-right:auto;
-
+	display:inline-block;
 	border-radius:25px;
 	border: 2px solid #000000;
 	z-index:10;
+
 }
 
-#intro {
-	font-family:"Helvetica", sans-serif;
-	background-color: rgba(255,255,255,0.8);
+.words {
 	font-size: 1em;
 	width: 45%;
 	padding-left:20px;
@@ -78,8 +85,20 @@ tr {
 	border-radius:25px;
 	border: 2px solid #000000;
 	z-index:10;
+	font-family:"Helvetica", sans-serif;
+	background-color: rgba(255,255,255,0.8);
 }
 
+
+#profile {
+	width:45%;
+	padding-left:20px;
+	padding-right:20px;
+	margin-left:5px;
+	margin-right:auto;
+	display:inline-block;
+	vertical-align:middle;
+}
 .right {
 	font-family:"Helvetica", sans-serif;
 	background-color: rgba(255,255,255,0.8);
@@ -89,25 +108,27 @@ tr {
 	padding-right:20px;
 	margin-left:auto;
 	margin-right:5px;
-
+	display:inline-block;
+	vertical-align:middle;
 	border-radius:25px;
 	border: 2px solid #000000;
 	z-index:10;
 }
 
-.title {
-	top:0;
-	left:0;
-	padding-top:0;
-	background-color: #fff;
-	width:100%;
-	text-align: center;
-	position:fixed;
-	z-index: 1000;
-	}
+.directions {
+	font-size:600%;
+	text-align:center;
+	color:#fff;
+	text-decoration:none;
+	
 
-#music
-	{
-		float:right;
-		position:fixed;
-	}
+}
+
+#music {
+	width:1024px;
+	height:768px;
+	padding-top:150px;
+	padding-bottom:150px;
+	background-image: url(../../personal/img/keys.gif);
+
+}
