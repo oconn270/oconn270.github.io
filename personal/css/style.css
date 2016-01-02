@@ -107,6 +107,7 @@ h2 {
 	padding-left:20px;
 	padding-right:20px;
 	margin-left:auto;
+	float:right;
 	margin-right:5px;
 	display:inline-block;
 	vertical-align:middle;
@@ -120,7 +121,7 @@ h2 {
 	text-align:center;
 	color:#fff;
 	text-decoration:none;
-	
+
 
 }
 

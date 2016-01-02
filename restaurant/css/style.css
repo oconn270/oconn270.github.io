@@ -165,4 +165,13 @@ header{
 	padding-bottom:200px;
 	left:0;
 	background-image:url(../img/postcards.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+#Postcards p{
+	font-size:2em;
+	color:white;
+	background-color:rgba(0,0,0,0);
+	vertical-align:text-bottom;
 }

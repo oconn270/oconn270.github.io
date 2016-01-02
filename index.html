@@ -1,75 +1,446 @@
-<!DOCTYPE: HTML>
+<!DOCTYPE html>
+<html lang="en">
 
-<HTML>
-	<title>Robert O'Connor</title>
 <head>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="personal/css/style.css">
-	<link rel="icon" type="image/ico" href="personal/img/profile.ico">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" type="image/ico" href="img/profile.ico">
+    <title>Robert O'Connor | Enthusiast | Communicator | Maker</title>
+
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/freelancer.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 </head>
 
-<body>
+<body id="page-top" class="index">
 
-<nav class="title">
-<h1>Robert O'Connor</h1>
-	<h2>Enthusiast | Communicator | Maker</h2>
-</nav>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top">Robert O'Connor</a>
+            </div>
 
-<a name="top"><div id="intro"></a>
-		<div class="left">
-			<p>This might be a long and zig-zag a bit, so bear with me. To sum up, I am many different things, and my work reflects attempting to stay true to what I am. It's not that I CAN write, or play music, or take photos, or anything, those are all just things I do. They're as natural to me as breathing and I don't think of them in the same way as "skill acquisition" or "intense training."</p>
-			</div>
-			<div id="profile">
-				<img src="personal/img/profile.png" height="300" align="left"></td></tr></div>
-		<div class="directions"><a href="#music">&#9660</a></div>
-		
-	</div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
 
-<div id="music">
-	<a name="music">
-	<div class="directions"><a href="#top">&#9650</a></div>
-	<div class="right"></a>
-	<p>I left high school thinking I was going to be a musician, playing in school jazz ensembles all through college and doing some freelance stuff on the side. Looking back I'm glad none of that was recorded and I realize now I'm a better studio person than a live musician. Having said that, I do miss live performances - the joy of applause, the comraderie you feel with your bandmates and the immediacy of a job well done. One of these days I'll go back to that, but for now, I'll stick to what I know best.</p>
-	</div>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="img/profile.png" alt="Me goes here" height="200" width="200">
+                    <div class="intro-text">
+                        <span class="name">Robert O'Connor</span>
+                        <hr class="star-light">
+                        <span class="skills">Enthusiast | Communicator | Maker</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
-</div>
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Portfolio</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/hncover.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/lunalights.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/lumpen.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/urbanbound.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/Birthday.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/musicmapfront.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<div class="image" id="writing">
+    <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>I've led many lives including a musician, journalist, broadcaster and most recently as a book author. Through it all my approach has been to dive deep into things I know little about and come out making things and sharing what I know.</p>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>Most recently I went through the web design track at the Startup Institute, which was eight exhilirating weeks of learning, doing and diving into the Chicago startup world.</p>
+                </div>                
+                <div class="col-lg-4">
+                    <p>I'm looking to join a company where I can use the skills I have and expand on some new ones. I have some ideas of my own, but I'm interested in yours. Let's talk and make cool things happen.</p>
+                </div>
 
-<div class="right">
+            </div>
+        </div>
+    </section>
 
-	<p>I left high school thinking I was going to be a musician, playing in school jazz ensembles all through college and doing some freelance stuff on the side. Looking back I'm glad none of that was recorded and I realize now I'm a better studio person than a live musician. Having said that, I do miss live performances - the joy of applause, the comraderie you feel with your bandmates and the immediacy of a job well done. One of these days I'll go back to that, but for now, I'll stick to what I know best.</p>
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Contact Me</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="footer-col col-md-4">
+                        <h3>Around the Web</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="mailto:oconn270@gmail.com" class="btn-social btn-outline"><i class="fa fa-fw fa-google plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="http://www.twitter.com/oconn270" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="http://www.linkedin.com/oconn270" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="http://www.behance.com/oconn270" class="btn-social btn-outline"><i class="fa fa-fw fa-behance"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+        </div>
+    </section>
 
-	<p>As time went on, I discovered writing was one of those things I just did, and I might as well try doing stuff with it - writing fiction (which is also lost), and later journalism. Journalism's gotten me into some pretty amazing spots, but my favorite stories are the ones where I shared a connection with someone - shared the hope of an Airbnb entrepreneur in Englewood, or the anger at someone losing their home. One of my journalism professors at Roosevelt University was John W. Fountain, who placed an emphasis on the idea that journalism is about empathy and compassion, especially with those that don't have a mouthpiece to tell their story.</p>
-
-	<p>If you were to ask me what journalism is, it's diving into subjects I know nothing, or very little about, and coming out knowing as much as an expert and communicating what I know back to the wider public in a way that is clear and compelling (more on this later). The subjects I've gone after are the ones that interest me, which have included culture, history and unfamiliar places. For several months I wrote pieces about mostly American culture for the online magazines <i>3:AM</i> and <i>Spike Magazine</i> - pieces about <a href="http://www.3ammagazine.com/3am/the-shame-of-minneapolis/">crime</a> <a href="http://www.3ammagazine.com/3am/the-big-fellow-and-the-cardinal/">in</a> <a href="http://www.3ammagazine.com/3am/st-pauls-gangster-era/">the</a> <a href="http://www.3ammagazine.com/3am/shall-make-no-la/">Twin</a> <a href="http://www.3ammagazine.com/3am/closing-the-shop/">Cities</a>, <a href="http://www.3ammagazine.com/3am/it-could-only-happen-here/">Studs Terkel</a>, <a href="http://www.spikemagazine.com/dylan-at-sevent.php">Bob Dylan</a>, <a href="http://www.spikemagazine.com/soma-records.php">Soma Records</a> and <a href="http://www.spikemagazine.com/fawcett-publications.php">Fawcett Publications</a>.</p>
-
-	<p>That last one led to a great opportunity - the CEO and publisher of <a href="http://odysseypublications.com/">Odyssey Publications</a> (who I'd been a fan of for many years) saw that piece and liked it so much I was brought on as a...you know, I don't think they ever gave me a title, but that's not important right now.</p>
-
-	<p>I first met Odyssey's folks on my first visit to Hong Kong, after an internship in Shanghai that was fun, but I learned I couldn't be a foreign correspondent. I was on my way to Nepal for another internship, which was also fun, but I learned I was more of a copy-editor than a full-on reporter. I also attempted to journey into Tibet with no practice. Next time, I'll go prepared.</p>
-
-	<p>In the time I spent with Odyssey I made a handful of things that never got made, like a Literary Map of Chicago, a Music Map of Chicago, and a series of cultural/commerce briefings on the Great Lakes states. They were never designed and I'm looking around for a way to start those up again.</p>
-
-	<p>What put a halt to it is something that at least so far is the height of my career: Writing/editing and helping design the book <a href="http://odysseypublications.com/publicationsPublication.php?publicationID=00116"><i>Hiroshima, Nagasaki: An Illustrated History, Anthology, and Guide</i></a>, which I wrote without any prior knowledge of Japan, no prior visits, or anything. They just asked me to do it and I said yes. That part I said earlier about diving into subjects? I did that here, and came out conversant in Japanese history and I found myself really loving Japan. The project took about a year from conception to release (which I'm told is a really fast time for a book - I wouldn't know, it's my first time).</p>
-
-	<p>Since the book has ended I've been looking around for the next thing to do. Recently I've been diving into things I got interested in thanks to the book like design, especially editorial design, other neat history topics and Japanese film/tv. Towards the end of making the book I began pitching Odyssey various places to write guidebooks about, especially places I'd traveled to and worked in like Tibet, Nepal and India (did I mention I'd been to each of those places?). I wanted to dive back into them again.</p>
-
-	<p>If you were to ask me what my favorite places are, I couldn't tell you. I like going to new places and blending in as much as possible. When I interned at <i>The New Indian Express</i> in Chennai I wrote local articles for their "Expresso" supplement about happenings around town. I took public transportation and blended in like a local (even though nobody in Chennai looks like me). A year later I did the same in Dublin, when I interned for <i>Hot Press</i>, writing about local bands and other happenings. And now I've been in Chicago for a few years and I go about the place like I'm a local, even though I've lived here for a total of 5 of my 30 years.</p>
-
-	<p>As for this thing you're looking at now, this is the result of the Startup Institute, an eight-week program I took to shore up my web design skills and get more involved in the startup world in Chicago. Aside from this website I also made one for a local Indian restaurant, a local gift shop, started a podcasting program with a non-profit, designed the prototype of a card game, recorded a remix/mash-up, designed a classical music appreciation app, and did some banner ads for a gift startup.</p>
-
-	<p>Conclusions? I'm not ready to sum up, give a speech and make pronouncements. If you want more, send me an email or hit me up on social media. There's more to talk about, and let's make cool things together.</p>
-</div>
-
-</td></tr></table>
 
 
-	<div id="music"></div>
-	<div id="yourestillhere"></div>
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visible-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
 
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Hiroshima Nagasaki: An Illustrated History, Anthology, and Guide</h2>
+                            <hr class="star-primary">
+                            <a href="http://www.amazon.com/Hiroshima-Nagasaki-Illustrated-History-Anthology/dp/962217860X"><img src="img/portfolio/hncover.png" class="img-responsive img-centered" alt="Hiroshima Nagasaki: An Illustrated History, Anthology, and Guide"></a>
+                            <p>Wrote the content, assembled the photos and extracts used in it, secured copyrights. Over the course of the 10-month project I traveled to Japan and witnessed the Peace Ceremonies in both cities and met several people involved with preserving the memory of these events. I worked with the team at Odyssey to make sure this book looked good and was accurate, and managed to get it out on time despite the very fast turnaround and other pressures facing the company. The book ended up being released one week before the 70th anniversary of the atomic bombings.</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://www.odysseypublications.com">Odyssey Publications</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong>July 30, 2015</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Luna Lights</h2>
+                            <hr class="star-primary">
+                            <a href="img/portfolio/lunalightswire.jpg"><img src="img/portfolio/lunalights.png" class="img-responsive img-centered" alt=""></a>
+                            <p>Created this along with three other web designers, Brenda Knick, Annie Darmofal, and Anna Bukareva as part of a design hack. Luna Lights asked us to redo their website and overall presentation, and this was the centerpiece (click for the entire thing). We also created wireframes and a mood board for them.</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://lunalights.org/">Luna Lights</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong>December 10, 2015</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Lumpen #120</h2>
+                            <hr class="star-primary">
+                            <a href="http://lumpen.com/%3A/lumpen_cholo_120.html"><img src="img/portfolio/lumpen.jpg" class="img-responsive img-centered" alt="Lumpen #120"></a>
+                            <p>I've served in various roles at the Public Media Institute, including writing articles for their magazines, <i>Mash Tun</i> (<a href="http://underthecounterculture.bigcartel.com/product/mash-tun-journal-2">issues 2</a> <a href="http://underthecounterculture.bigcartel.com/product/mash-tun-7">and 7</a>), <i>Proximity</i> and <i>Lumpen</i>. For the last one I co-edited the 120th issue (pictured), edited a section of <a href="http://weareplural.com/work/940/1/">issue 121</a> and contributed a piece to <a href="http://www.lumpenmagazine.org/on-jagoffs/">issue 124</a>. I've also helped out at their events throughout the years like Version Fest and their recently started radio station <a href="http://lumpenradio.com/">Lumpen Radio, WLPN</a>.</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="https://www.publicmediainstitute.com/">Public Media Institute</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong>April 2013-present</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>"Why You Need to Start Your Relocation Program Today"</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/urbanbound.png" class="img-responsive img-centered" alt="">
+                            <p>As part of the Startup Institute I helped create an end-to-end marketing campaign for <a href="http://www.urbanbound.com/">Urbanbound</a>. With fellow students John Ehlinger, Connor Tatooles and Rebecca Zefron, we created all the materials involved. The centerpiece was an ebook (cover shown), accompanied by tie-in blog posts, social media posts and sales emails. Urbanbound has collaborated with Startup Institute in the past on similar campaigns and said ours was by far the best they'd seen.</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Urbanbound</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong>December 2015</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Banner ads for Caysh</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/Birthday.png" class="img-responsive img-centered" alt="Birthday">
+                            <img src="img/portfolio/Christmas.png" class="img-responsive img-centered" alt="Christmas">
+                            <img src="img/portfolio/Graduation.png" class="img-responsive img-centered" alt="Graduation">
+                            <p>These Facebook banner ads were made for Caysh, a startup that makes sending money on special occasions easier.</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://www.caysh.com">Caysh</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong>November 2015</a>
+                                    </strong>
+                                </li>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Music map of Chicago</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/musicmapfull.jpg" class="img-responsive img-centered" alt="">
+                            <p>Wrote, edited and co-designed a map of Chicago highlighting its music history (cover shown). Ultimately not published due to to a lack of financing</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://www.odysseypublications">Odyssey Publications</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong>Not published
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="personal/js/javascript.js"></script>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/freelancer.js"></script>
+
 </body>
-</HTML>
+
+</html>
