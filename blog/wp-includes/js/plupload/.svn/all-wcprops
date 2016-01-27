@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/!svn/ver/34984/trunk/wp-includes/js/plupload
+END
+wp-plupload.js
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/!svn/ver/34015/trunk/wp-includes/js/plupload/wp-plupload.js
+END
+license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/18482/trunk/wp-includes/js/plupload/license.txt
+END
+wp-plupload.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/34015/trunk/wp-includes/js/plupload/wp-plupload.min.js
+END
+plupload.silverlight.xap
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/!svn/ver/34984/trunk/wp-includes/js/plupload/plupload.silverlight.xap
+END
+plupload.flash.swf
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/34984/trunk/wp-includes/js/plupload/plupload.flash.swf
+END
+handlers.js
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/31671/trunk/wp-includes/js/plupload/handlers.js
+END
+handlers.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/31671/trunk/wp-includes/js/plupload/handlers.min.js
+END
+plupload.full.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/!svn/ver/34984/trunk/wp-includes/js/plupload/plupload.full.min.js
+END

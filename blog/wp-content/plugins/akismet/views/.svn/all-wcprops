@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/1321310/akismet/tags/3.1.7/views
+END
+start.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/1321310/akismet/tags/3.1.7/views/start.php
+END
+stats.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/1321310/akismet/tags/3.1.7/views/stats.php
+END
+get.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/1321310/akismet/tags/3.1.7/views/get.php
+END
+notice.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/1321310/akismet/tags/3.1.7/views/notice.php
+END
+config.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/1321310/akismet/tags/3.1.7/views/config.php
+END
+strict.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/1321310/akismet/tags/3.1.7/views/strict.php
+END

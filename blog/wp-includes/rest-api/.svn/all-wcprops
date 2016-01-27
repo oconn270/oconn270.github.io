@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/35854/trunk/wp-includes/rest-api
+END
+class-wp-rest-request.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/!svn/ver/35854/trunk/wp-includes/rest-api/class-wp-rest-request.php
+END
+class-wp-rest-response.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/!svn/ver/35635/trunk/wp-includes/rest-api/class-wp-rest-response.php
+END
+class-wp-rest-server.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/35737/trunk/wp-includes/rest-api/class-wp-rest-server.php
+END

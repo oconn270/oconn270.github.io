@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/!svn/ver/1321310/akismet/tags/3.1.7
+END
+LICENSE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/1321310/akismet/tags/3.1.7/LICENSE.txt
+END
+akismet.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/1321310/akismet/tags/3.1.7/akismet.php
+END
+wrapper.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/1321310/akismet/tags/3.1.7/wrapper.php
+END
+class.akismet.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/1321310/akismet/tags/3.1.7/class.akismet.php
+END
+class.akismet-widget.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/1321310/akismet/tags/3.1.7/class.akismet-widget.php
+END
+.htaccess
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/1321310/akismet/tags/3.1.7/.htaccess
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/1321310/akismet/tags/3.1.7/readme.txt
+END
+class.akismet-admin.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/!svn/ver/1321310/akismet/tags/3.1.7/class.akismet-admin.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/1321310/akismet/tags/3.1.7/index.php
+END

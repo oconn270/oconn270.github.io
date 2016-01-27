@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/!svn/ver/35943/trunk/wp-includes/widgets
+END
+class-wp-widget-recent-comments.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/!svn/ver/34586/trunk/wp-includes/widgets/class-wp-widget-recent-comments.php
+END
+class-wp-widget-archives.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/!svn/ver/34584/trunk/wp-includes/widgets/class-wp-widget-archives.php
+END
+class-wp-widget-text.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/!svn/ver/34573/trunk/wp-includes/widgets/class-wp-widget-text.php
+END
+class-wp-widget-categories.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/!svn/ver/35244/trunk/wp-includes/widgets/class-wp-widget-categories.php
+END
+class-wp-widget-search.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/!svn/ver/34575/trunk/wp-includes/widgets/class-wp-widget-search.php
+END
+class-wp-nav-menu-widget.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/!svn/ver/34626/trunk/wp-includes/widgets/class-wp-nav-menu-widget.php
+END
+class-wp-widget-meta.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/!svn/ver/34580/trunk/wp-includes/widgets/class-wp-widget-meta.php
+END
+class-wp-widget-recent-posts.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/!svn/ver/34577/trunk/wp-includes/widgets/class-wp-widget-recent-posts.php
+END
+class-wp-widget-rss.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/35943/trunk/wp-includes/widgets/class-wp-widget-rss.php
+END
+class-wp-widget-calendar.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/!svn/ver/34583/trunk/wp-includes/widgets/class-wp-widget-calendar.php
+END
+class-wp-widget-pages.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/34579/trunk/wp-includes/widgets/class-wp-widget-pages.php
+END
+class-wp-widget-tag-cloud.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/!svn/ver/35540/trunk/wp-includes/widgets/class-wp-widget-tag-cloud.php
+END
+class-wp-widget-links.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/34581/trunk/wp-includes/widgets/class-wp-widget-links.php
+END
